@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: '3.1'
+services:
+  backend:
+    image: scheduler_backend:latest
+    ports:
+      - "8080:8080"
+  mongo-container:
+    image: mongo:latest
+    environment:
+        - MONGO_INITDB_ROOT_USERNAME=root
+        - MONGO_INITDB_ROOT_PASSWORD=password
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb:/data/db
+    command: mongod
