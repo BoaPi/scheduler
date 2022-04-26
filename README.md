@@ -1,5 +1,11 @@
 # scheduler
-proof of concept for a course scheduler app. 
+proof of concept for a course scheduler app.
+
+This project is build for education prupose only. The goal is to get into new technologies like:
+* go
+* svelte
+* docker
+* PostgreSQL
 
 ## Next Steps
 * [ ] move `main.go` from docker into backend app folder
