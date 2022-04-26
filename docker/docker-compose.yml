@@ -3,15 +3,18 @@ version: '3.1'
 services:
   backend:
     image: scheduler_backend:latest
+    container_name: scheduler_backend
     ports:
       - "8080:8080"
-  mongo-container:
-    image: mongo:latest
+  postgres:
+    image: postgres:14.2-alpine
+    container_name: scheduler_db
+    restart: always
     environment:
-        - MONGO_INITDB_ROOT_USERNAME=root
-        - MONGO_INITDB_ROOT_PASSWORD=password
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: password
+        POSTGRES_DB: scheduler_db
     ports:
-      - "27017:27017"
+      - "5432:5432"
     volumes:
-      - ./mongodb:/data/db
-    command: mongod
+      - ./postgres/db:/var/lib/postgresql/data
