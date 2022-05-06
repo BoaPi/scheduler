@@ -1,18 +1,51 @@
 # scheduler
 
-proof of concept for a course scheduler app.
+> **Disclaimer:** this project is build for education purpose only.
+> The goal is to into new technologies and workflows.
 
-This project is build for education prupose only. The goal is to get into new technologies like:
+- [scheduler](#scheduler)
+  - [Requirements of the App](#requirements-of-the-app)
+  - [Tech Stack](#tech-stack)
+  - [Next Steps](#next-steps)
 
-- go
-- svelte
-- docker
-- PostgreSQL
+## Requirements of the App
+
+The app should provide an easy to use school lesson scheduler. The teachers/tutors should be able to maintain the lessons of several classes.
+
+The app should do all the validity checks, e.g.:
+
+- no double booking of teachers/tutors
+- no overbooking of classes
+- no overbooking of rooms
+- **more to be defined**
+
+The app should provide an interface to:
+
+- adding and editing new teachers/tutors
+- adding and editing
+  - major and minor subject to each teacher/tutor
+  - rooms
+  - classes
+  - school subjects, e.g. how many lessons of each subject should there be
+- **more to be defined**
+
+## Tech Stack
+
+| Part           | Technology |
+| -------------- | ---------- |
+| Database       | PostgreSQL |
+| Backend / API  | Golang     |
+| Frontend/ UI   | Svelte     |
+| Virtualization | Docker     |
+| Build Tool     | Makefile   |
 
 ## Next Steps
 
-- [x] move `main.go` from docker into backend app folder
-- [x] add svelte as frontend
 - [ ] add dockerfile for frontend
 - [ ] add frontend to docker-compose file
-- [ ] add more docs and next steps
+- [ ] create first table in database
+- [ ] create first API endpoint to fetch data from database
+- [ ] create first site in frontend to use the new API endpoint
+- [ ] create concept of database tables
+- [ ] create architecture of API
+- [ ] create concept of frontend views
