@@ -15,7 +15,7 @@ WORKDIR /usr/src/app
 COPY [".npmrc", "package.json", "pnpm-lock.yaml", "./"]
 
 # Install Node modules
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 # Copy over rest of the project files
 COPY . .
