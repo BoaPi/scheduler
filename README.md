@@ -41,8 +41,9 @@ The app should provide an interface to:
 
 ## Next Steps
 
-- [ ] add dockerfile for frontend
-- [ ] add frontend to docker-compose file
+- [x] add dockerfile for frontend
+- [x] add frontend to docker-compose file
+- [ ] getting node_modules from Docker image back into VSCode
 - [ ] create first table in database
 - [ ] create first API endpoint to fetch data from database
 - [ ] create first site in frontend to use the new API endpoint
