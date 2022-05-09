@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "frontend@0.0.1",
+    "stage": "dev",
+    "script": "svelte-kit dev \"--host\" \"0.0.0.0\"",
+    "pkgname": "frontend",
+    "err": {
+      "name": "pnpm",
+      "message": "frontend@0.0.1 dev: `svelte-kit dev \"--host\" \"0.0.0.0\"`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: frontend@0.0.1 dev: `svelte-kit dev \"--host\" \"0.0.0.0\"`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:93293:22)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  }
+}
