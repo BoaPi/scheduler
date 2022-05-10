@@ -7,6 +7,7 @@
   - [Description](#description)
   - [Prerequisite](#prerequisite)
   - [Tech Stack](#tech-stack)
+  - [Documentation](#documentation)
 
 ## Description
 
@@ -31,3 +32,8 @@ to build, run and develop this application, make sure to use:
 | Frontend/ UI       | Svelte     |
 | Virtualization     | Docker     |
 | Setup / Build Tool | Makefile   |
+
+## Documentation
+
+* [Next Steps / Todos](documentation/todo.md)
+*  [Requirements](documentation/requirements.md)
