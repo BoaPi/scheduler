@@ -4,9 +4,18 @@
 > The goal is to into new technologies and workflows.
 
 - [scheduler](#scheduler)
+  - [Prerequisite](#prerequisite)
   - [Requirements of the App](#requirements-of-the-app)
   - [Tech Stack](#tech-stack)
   - [Next Steps](#next-steps)
+
+## Prerequisite
+
+* Docker 20.10.14
+* Go 1.18.1
+* VS Code
+* VS Code Extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) to develop inside the frontend image itself
+* VS Code Extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
 
 ## Requirements of the App
 
