@@ -6,6 +6,7 @@
 - [scheduler](#scheduler)
   - [Description](#description)
   - [Prerequisite](#prerequisite)
+    - [Frontend Development](#frontend-development)
   - [Tech Stack](#tech-stack)
   - [Documentation](#documentation)
 
@@ -22,6 +23,10 @@ to build, run and develop this application, make sure to use:
 * VS Code
 * VS Code Extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) to develop inside the frontend image itself
 * VS Code Extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
+
+### Frontend Development
+
+to develop the frontend code, the VS Code extension **Remote - Containers** should be used.
 
 ## Tech Stack
 
